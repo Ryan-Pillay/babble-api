@@ -95,8 +95,10 @@ a.secondary {
   gap: 24px;
 }
 
-.footer a {
+.footer a,
+.footer p {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   gap: 8px;
 }
